@@ -18,7 +18,6 @@ DATOS EXTRA:
 
 - Actualmente la empresa cuenta con Office 365 como sistema de mail, servicio de mensajería empresarial entre otros. Incluido con este producto se encuentra el servicio **Azure Active Directory que les provee interfaces OIDC y SAML.**
 - La normativa de la Super Intendencia de Servicios de Salud exige que los aumentos sean anunciados con 30 días de anticipación. Es por este motivo que las cotizaciones utilizan el ultimo valor con aumento y tienen una validez de 30 días.
-
 - ![Diagrama estructural](./diagrama.drawio.svg)
 
 ## REQUERIMIENTO
