@@ -56,3 +56,20 @@ Los vendedores deberán ingresar al sistema cotizador para hacer un seguimiento 
   - La función ESFUERZO = FUERZA DE ACOPLAMIENTO x VOLATILIDAD x DISTANCIA
   
   - La gran mayoría de Identity providers (Keycloak, Okta, Auth0, etc.) tiene la opción de Identidades Federadas, es decir confiar en credenciales emitidas por terceras partes que implementen el protocolo OIDC
+
+## PROPUESTA DE SOLUCION
+
+Se proponen dos soluciones, en la primera se abarca la solucion para que los clientes puedan realizar las cotizaciones de sus servicios.
+Se propone utilizar para la autenticacion OIDC, de esta manera los usuarios podran autenticarse con sus propios mail en el nuevo sistema de cotizacion.
+En el sistema los usuarios podran seleccinar los diferentes servicios que provee la empresa e ir cotizando su plan. Una vez guardada la cotizacion se envia la cotizacion por mail al posible cliente y a un vendedor que se elegirá de forma aleatoria pero equitativa. El vendedor deberá realizar seguimiento para ver como avanza la venta.
+
+Debe tener poca volatilidad el cambio de los mails ya que se deberan modificar el servicio de cotizacion y el de notificaciones.
+
+
+Si la venta se realiza el vendedor se logueará en el sistema de cotizacion y aceptará la venta que se envia al sistema existente.
+Donde despues se podra realizar la facturacion del servicio.
+
+
+------------------------------------
+En la segunda propuesta se propone que el sistema existente se separe en microservicios para que al momento de realizar una actualizacion en alguno de ellos no afecte a todo el funcionamiento
+
