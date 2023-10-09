@@ -47,6 +47,8 @@ Los vendedores deberán ingresar al sistema cotizador para hacer un seguimiento 
 
 - RECUERDE
   
-    o    EVITAR Referencias circulares
-    o    La función ESFUERZO = FUERZA DE ACOPLAMIENTO x VOLATILIDAD x DISTANCIA
-    o    La gran mayoría de Identity providers (Keycloak, Okta, Auth0, etc.) tiene la opción de Identidades Federadas, es decir confiar en credenciales emitidas por terceras partes que implementen el protocolo OIDC
+  - EVITAR Referencias circulares
+  
+  - La función ESFUERZO = FUERZA DE ACOPLAMIENTO x VOLATILIDAD x DISTANCIA
+  
+  - La gran mayoría de Identity providers (Keycloak, Okta, Auth0, etc.) tiene la opción de Identidades Federadas, es decir confiar en credenciales emitidas por terceras partes que implementen el protocolo OIDC
